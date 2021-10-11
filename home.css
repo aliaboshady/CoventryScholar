@@ -1,0 +1,36 @@
+.center_horizontal {
+	text-align: center;
+}
+
+.logo {
+	width: 450px;
+	margin-top: 170px;
+	margin-bottom: 20px;
+}
+
+.search_bar {
+    height: 30px;
+	width: 550px;
+    font-size: 14pt;
+	border-width: thin;
+	border-radius: 3px;
+	border-color: #dadce0;
+	box-shadow: .1px .1px .2px .3px #ccc;
+	margin-bottom: 20px;
+}
+
+.search_button {
+	background-color: #f8f9fa;
+	border-width: thin;
+	border-radius: 3px;
+	border-color: #dadce0;
+	padding: 5px 15px;
+	box-shadow: .1px .1px .2px .3px #ccc;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.bottom_text {
+	text-align: center;
+	margin-top: 150px
+}

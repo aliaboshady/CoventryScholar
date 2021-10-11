@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coventry Scholar</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    
+	
+	<div class="center_horizontal">
+		<img src="logo no bg.png" alt="logo" class="logo">
+	</div>
+	
+	<div class="center_horizontal">
+		<input type="text" id="input" class="search_bar" placeholder="Search for professors or papers... or leave empty for all results">
+	</div>
+	
+	<div class="center_horizontal">
+		<a href="#"><button onclick="SearchProfessor()" type="button" id="professor_search" class="search_button">Professor Search</button></a>
+		<a href="#"><button onclick="SearchPaper()" type="button" id="paper_search" class="search_button">Paper Search</button></a>
+	</div>
+
+	
+	<div class="bottom_text">
+		Ali Aboshady - 10706121 <br>
+		aboshadya@uni.coventry.ac.uk <br>
+		MSc Data Science and Computational Intelligence <br>
+		Coventry University <br>
+	</div>
+
+	<script type="text/javascript" src="all_professors.js"></script>
+	<script type="text/javascript" src="all_papers.js"></script>
+	<script type="text/javascript" src="inverted_index_professors.js"></script>
+	<script type="text/javascript" src="inverted_index_papers.js"></script>
+	<script type="text/javascript" src="stop_words_chars.js"></script>
+    <script type="text/javascript" src="home.js"></script>
+	<script type="text/javascript" src="search_engine.js"></script>
+</body>
+</html>

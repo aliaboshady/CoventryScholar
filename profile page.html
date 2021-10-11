@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dr. Syed Aziz Shah</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="profile page.css">
+	
+	<div style="background-color:#eee;">
+		<a href="home.html"><img src="logo no bg.png" alt="logo" class="logo"></a>
+		<input type="text" id="input" class="search_bar" placeholder="Search for professors or papers... or leave empty for all results">
+		<a href="#"><button onclick="SearchProfessor()" type="button" id="professor_search" class="search_button">Professor Search</button></a>
+		<a href="#"><button onclick="SearchPaper()" type="button" id="paper_search" class="search_button">Paper Search</button></a>
+	</div>
+
+	<div id="profile_division" class="profile_div"><div class="loading">Loading...</div></div>
+
+	<br>
+	
+	<div id="paper_sec" class="paper_section"></div>
+	
+	<div style="float:right; margin-right:80px; margin-top:80px; font-family:Arial, sans-serif;">
+		<div id="page_num" style="float:left; margin-top: 10px;"></div>
+		<button onclick="GoToPrevPage()" type="button" id="back-but" class="back_page_button"><img src="back_page.png"></button>
+		<button onclick="GoToNextPage()" type="button" id="next-but" class="next_page_button"><img src="next_page.png"></button>
+		<br><br>
+	</div>
+
+	<br><br><br>
+
+
+
+	<div id="hidden_modal" class="modal">
+
+		<div id="inner_modal" class="modal-content">
+			<button onclick="CloseProfilePopup()" id="closeButton" class="close_button">X</button>
+
+			<h2 id="papertitle"></h2>
+			<p><br>
+				<p id="authors"></p>
+				<p id="co_authors"></p>
+				<p id="date"></p>
+				<p id="citations"></p>
+				<p id="volume"></p>
+				<p id="issue"></p>
+				<p id="pages"></p>
+				<p id="journal"></p>
+				<p id="publisher"></p>
+				<p id="description"></p>
+			</p><br><br>
+		</div><br><br><br><br><br><br><br><br>
+
+	</div>
+
+	
+
+	<script type="text/javascript" src="all_professors.js"></script>
+	<script type="text/javascript" src="all_papers.js"></script>
+	<script type="text/javascript" src="profile page.js"></script>
+    
+</body>
+</html>
